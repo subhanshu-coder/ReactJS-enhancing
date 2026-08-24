@@ -1,6 +1,8 @@
 import React from 'react'
 
-const UserCard = () => {
+// arrow function 
+
+const UserCard = () => {  
   return (
 
     <div>
