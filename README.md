@@ -16,3 +16,5 @@ You will learn more about props in our React Props chapter.
 
 Components in Files
 React is all about re-using code, and it can be a good idea to split your components into separate files. 
+
+To do that, create a new file in the src folder with a .jsx file extension and put the code inside it
