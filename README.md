@@ -5,3 +5,11 @@ Components are independent and reusable bits of code. They serve the same purpos
 -- When creating a React component, the component's name MUST start with an upper case letter.
 
 React components returns HTML code.
+
+react props
+Props
+Arguments can be passed into a component as props, which stands for properties.
+
+You send the arguments into the component as HTML attributes.
+
+You will learn more about props in our React Props chapter.
