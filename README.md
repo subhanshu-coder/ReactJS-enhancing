@@ -13,3 +13,6 @@ Arguments can be passed into a component as props, which stands for properties.
 You send the arguments into the component as HTML attributes.
 
 You will learn more about props in our React Props chapter.
+
+Components in Files
+React is all about re-using code, and it can be a good idea to split your components into separate files. 
