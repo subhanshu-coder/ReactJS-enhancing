@@ -34,3 +34,7 @@ class Car extends React.Component {
     return <h2>Hi, I am a Car!</h2>;
   }
 }
+
+Now your React application has a component called Car, which returns a <h2> element.
+
+To use this component in your application, use similar syntax as normal HTML: <Car />
