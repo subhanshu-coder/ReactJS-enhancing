@@ -94,3 +94,6 @@ This way, the component receives all the properties, but the destructuring makes
 
 Destructuring ...rest
 When you don't know how many properties you will receive, you can use the ...rest operator.
+
+Meaning: you can specify the properties you need, and the rest will be stored in an object.
+
