@@ -76,3 +76,6 @@ Different Data Types
 React props can be of any data type, including variables, numbers, strings, objects, arrays, and more.
 
 Strings can be sent inside quotes as in the examples above, but numbers, variables, and objects need to be sent inside curly brackets.
+
+Object Props
+The component treats objects like objects, and you can use the dot notation to access the properties.
