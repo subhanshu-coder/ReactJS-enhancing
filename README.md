@@ -67,3 +67,8 @@ function Car(props) {
 
 The name of the object is props, but you can call it anything you want.
 
+Pass Multiple Properties
+You can send as many properties as you want.
+
+Every attribute is sent to the Car component as object properties.
+
