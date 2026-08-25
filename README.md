@@ -91,3 +91,6 @@ You can limit the properties a component receives by using destructuring.
 You can also destruct the properties you need inside the component.
 
 This way, the component receives all the properties, but the destructuring makes sure it only uses the ones it needs.
+
+Destructuring ...rest
+When you don't know how many properties you will receive, you can use the ...rest operator.
