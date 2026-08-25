@@ -88,5 +88,5 @@ Attributes are also how you pass data from one component to another, as paramete
 
 Destructuring Props
 You can limit the properties a component receives by using destructuring.
-
+You can also destruct the properties you need inside the component.
 
