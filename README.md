@@ -90,3 +90,4 @@ Destructuring Props
 You can limit the properties a component receives by using destructuring.
 You can also destruct the properties you need inside the component.
 
+This way, the component receives all the properties, but the destructuring makes sure it only uses the ones it needs.
