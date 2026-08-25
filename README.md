@@ -106,3 +106,8 @@ Props Children
 In React, you can send the content between the opening and closing tags of a component, to another component.
 
 This can be accessed in the other component using the props.children property.
+
+React Events
+Just like HTML DOM events, React can perform actions based on user events.
+
+React has the same events as HTML: click, change, mouseover etc.
