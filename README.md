@@ -72,3 +72,5 @@ You can send as many properties as you want.
 
 Every attribute is sent to the Car component as object properties.
 
+Different Data Types
+React props can be of any data type, including variables, numbers, strings, objects, arrays, and more.
