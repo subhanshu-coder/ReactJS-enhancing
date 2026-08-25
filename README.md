@@ -46,3 +46,10 @@ Props are arguments passed into React components.
 Props are passed to components via HTML attributes.
 
 To send props into a component, use the same syntax as HTML attributes:
+
+ExampleGet your own React.js Server
+Add a brand attribute to the Car element:
+
+createRoot(document.getElementById('root')).render(
+  <Car brand="Ford" />
+);
