@@ -101,3 +101,8 @@ Default Values
 With Destructuring, you can set default values for props.
 
 If a property has no value, the default value will be used.
+
+Props Children
+In React, you can send the content between the opening and closing tags of a component, to another component.
+
+This can be accessed in the other component using the props.children property.
