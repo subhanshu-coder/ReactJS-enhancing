@@ -38,3 +38,7 @@ class Car extends React.Component {
 Now your React application has a component called Car, which returns a <h2> element.
 
 To use this component in your application, use similar syntax as normal HTML: <Car />
+
+React Props
+React Props are like function arguments in JavaScript and attributes in HTML.
+
