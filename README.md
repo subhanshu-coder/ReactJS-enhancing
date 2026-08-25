@@ -97,3 +97,5 @@ When you don't know how many properties you will receive, you can use the ...res
 
 Meaning: you can specify the properties you need, and the rest will be stored in an object.
 
+Default Values
+With Destructuring, you can set default values for props.
