@@ -79,3 +79,6 @@ Strings can be sent inside quotes as in the examples above, but numbers, variabl
 
 Object Props
 The component treats objects like objects, and you can use the dot notation to access the properties.
+
+Array Props
+Array props can be accessed using the indexes.
