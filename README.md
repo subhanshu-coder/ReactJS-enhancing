@@ -53,3 +53,15 @@ Add a brand attribute to the Car element:
 createRoot(document.getElementById('root')).render(
   <Car brand="Ford" />
 );
+
+The component receives the argument as a props object:
+
+Example
+Use the brand attribute in the Car component:
+
+function Car(props) {
+  return (
+    <h2>I am a {props.brand}!</h2>
+  );
+}
+
