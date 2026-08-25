@@ -65,3 +65,5 @@ function Car(props) {
   );
 }
 
+The name of the object is props, but you can call it anything you want.
+
