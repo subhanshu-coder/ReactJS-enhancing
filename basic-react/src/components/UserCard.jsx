@@ -13,6 +13,7 @@ const UserCard = () => {
      <h5>user card</h5>
      <h4></h4>
      <h3></h3>
+     <h2></h2>
     </div>
 
   )
