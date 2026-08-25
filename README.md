@@ -82,3 +82,6 @@ The component treats objects like objects, and you can use the dot notation to a
 
 Array Props
 Array props can be accessed using the indexes.
+
+Pass Props from Component to Component
+Attributes are also how you pass data from one component to another, as parameters.
