@@ -85,3 +85,8 @@ Array props can be accessed using the indexes.
 
 Pass Props from Component to Component
 Attributes are also how you pass data from one component to another, as parameters.
+
+Destructuring Props
+You can limit the properties a component receives by using destructuring.
+
+
