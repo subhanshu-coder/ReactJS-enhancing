@@ -120,3 +120,6 @@ onClick instead of onclick.
 React event handlers are written inside curly braces:
 
 onClick={shoot}  instead of onclick="shoot()".
+
+Passing Arguments
+To pass an argument to an event handler, use an arrow function
