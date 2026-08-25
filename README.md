@@ -123,3 +123,9 @@ onClick={shoot}  instead of onclick="shoot()".
 
 Passing Arguments
 To pass an argument to an event handler, use an arrow function
+
+React Event Object
+Event handlers have access to the React event that triggered the function.
+
+In our example the event is the "click" event.
+
