@@ -74,3 +74,5 @@ Every attribute is sent to the Car component as object properties.
 
 Different Data Types
 React props can be of any data type, including variables, numbers, strings, objects, arrays, and more.
+
+Strings can be sent inside quotes as in the examples above, but numbers, variables, and objects need to be sent inside curly brackets.
