@@ -54,3 +54,7 @@ const carInfo = {
   color: "red",
   year: 1969
 };
+
+createRoot(document.getElementById('root')).render(
+  <Car carinfo={carInfo} />
+);
