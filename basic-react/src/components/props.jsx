@@ -22,3 +22,10 @@ function Car(props) {
     <h2>I am a {props.color} {props.brand} {props.model}!</h2>
   );
 }
+
+// variables has to be sent inside curly brackets
+let x = "Ford";
+
+createRoot(document.getElementById('root')).render(
+  <Car brand={x} />
+);
