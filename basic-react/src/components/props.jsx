@@ -10,3 +10,5 @@ function Car(myobj) {
     <h2>I am a {myobj.brand}!</h2>
   );
 }
+
+// send multiple properties to the car component
