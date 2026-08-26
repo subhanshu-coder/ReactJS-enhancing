@@ -11,3 +11,9 @@
 
 // HTML:
 {/* <button onclick="shoot()">Take the Shot!</button> */}
+
+// Put the shoot function inside the Football component:
+function Football() {
+  const shoot = () => {
+    alert("Great Shot!");
+  }
