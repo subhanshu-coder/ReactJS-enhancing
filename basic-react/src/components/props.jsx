@@ -37,3 +37,5 @@ let y = {name: "Ford", model: "Mustang"};
 createRoot(document.getElementById('root')).render(
   <Car years={x} carinfo={y} />
 );
+
+// Use the dot notation to access object properties:
