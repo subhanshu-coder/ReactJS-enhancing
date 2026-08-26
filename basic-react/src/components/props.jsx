@@ -58,3 +58,5 @@ const carInfo = {
 createRoot(document.getElementById('root')).render(
   <Car carinfo={carInfo} />
 );
+
+// Use the indexes to access array properties:
