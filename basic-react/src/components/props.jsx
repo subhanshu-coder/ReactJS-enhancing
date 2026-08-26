@@ -15,3 +15,5 @@ function Car(myobj) {
 createRoot(document.getElementById('root')).render(
   <Car brand="Ford" model="Mustang" color="red" />
 );
+
+// use the property values in the car component
