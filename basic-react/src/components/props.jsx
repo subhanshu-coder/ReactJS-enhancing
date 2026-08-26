@@ -47,3 +47,10 @@ function Car(props) {
     </>
   );
 }
+
+const carInfo = {
+  name: "Ford",
+  model: "Mustang",
+  color: "red",
+  year: 1969
+};
