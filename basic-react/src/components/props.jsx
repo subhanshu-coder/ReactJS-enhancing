@@ -31,4 +31,9 @@ createRoot(document.getElementById('root')).render(
 );
 
 // Objects and Arrays has to be sent inside curly brackets:
+let x = [1964, 1965, 1966];
+let y = {name: "Ford", model: "Mustang"};
 
+createRoot(document.getElementById('root')).render(
+  <Car years={x} carinfo={y} />
+);
