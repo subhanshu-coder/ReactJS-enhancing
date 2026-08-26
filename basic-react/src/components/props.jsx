@@ -5,3 +5,8 @@ function Car(props) {
 }
 
 // you can use myobj instead of props in the component
+function Car(myobj) {
+  return (
+    <h2>I am a {myobj.brand}!</h2>
+  );
+}
