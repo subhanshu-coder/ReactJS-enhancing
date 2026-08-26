@@ -24,7 +24,7 @@ function Car(props) {
 }
 
 // variables has to be sent inside curly brackets
-let x = "Ford";
+// let x = "Ford";
 
 createRoot(document.getElementById('root')).render(
   <Car brand={x} />
