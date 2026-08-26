@@ -29,3 +29,6 @@ let x = "Ford";
 createRoot(document.getElementById('root')).render(
   <Car brand={x} />
 );
+
+// Objects and Arrays has to be sent inside curly brackets:
+
