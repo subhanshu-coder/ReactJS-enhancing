@@ -4,3 +4,5 @@
 // Example:
 // Now, we'll create another component that chooses which component to render based on a condition:
 
+function Goal(props) {
+  const isGoal = props.isGoal;
