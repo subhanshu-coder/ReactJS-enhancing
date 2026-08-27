@@ -26,3 +26,11 @@ createRoot(document.getElementById('root')).render(
 // Another way to conditionally render a React component is by using the && operator.
 
 // In the example below, the heading will only be rendered if the props.brand property is not empty:
+
+function Car(props) {
+  return (
+    <>
+      {props.brand && <h1>My car is a {props.brand}!</h1>}
+    </>
+  );
+}
