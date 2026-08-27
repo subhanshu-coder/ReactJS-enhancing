@@ -43,3 +43,7 @@ createRoot(document.getElementById('root')).render(
 // Try emptying the brand property:
 
 // Example:
+createRoot(document.getElementById('root')).render(
+  <Car />
+);
+
