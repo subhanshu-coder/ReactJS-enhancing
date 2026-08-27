@@ -55,3 +55,4 @@ function Goal(props) {
       { isGoal ? <MadeGoal/> : <MissedGoal/> }
     </>
   );
+}
