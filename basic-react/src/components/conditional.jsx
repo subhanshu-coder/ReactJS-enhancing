@@ -21,3 +21,8 @@ createRoot(document.getElementById('root')).render(
 createRoot(document.getElementById('root')).render(
   <Goal isGoal={true} />
 );
+
+// Logical && Operator
+// Another way to conditionally render a React component is by using the && operator.
+
+// In the example below, the heading will only be rendered if the props.brand property is not empty:
