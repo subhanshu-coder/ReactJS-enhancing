@@ -11,3 +11,7 @@ function Goal(props) {
   }
     return <MissedGoal/>;
 }
+
+createRoot(document.getElementById('root')).render(
+  <Goal isGoal={false} />
+);
