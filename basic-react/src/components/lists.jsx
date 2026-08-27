@@ -7,3 +7,9 @@ function MyCars() {
         {cars.map((car) => <li>I am a { car }</li>)}
       </ul>
     </>
+      );
+}
+
+createRoot(document.getElementById('root')).render(
+  <MyCars />
+);
