@@ -37,3 +37,9 @@ function Car(props) {
 createRoot(document.getElementById('root')).render(
   <Car brand="Ford" />
 );
+
+// If props.brand evaluates to true, the expression after && will render.
+
+// Try emptying the brand property:
+
+// Example:
