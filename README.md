@@ -129,3 +129,6 @@ Event handlers have access to the React event that triggered the function.
 
 In our example the event is the "click" event.
 
+<!-- conditonal statement  -->
+<!-- if Statement
+We can use the if JavaScript operator to decide which component to render. -->
