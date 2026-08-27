@@ -85,3 +85,7 @@ function Goal(props) {
     </>
   );
 }
+
+createRoot(document.getElementById('root')).render(
+  <Goal isGoal={false} />
+);
