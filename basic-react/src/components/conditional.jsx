@@ -6,3 +6,5 @@
 
 function Goal(props) {
   const isGoal = props.isGoal;
+
+}
