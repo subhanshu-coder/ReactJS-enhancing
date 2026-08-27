@@ -59,3 +59,12 @@ function Goal(props) {
 createRoot(document.getElementById('root')).render(
   <Goal isGoal={false} />
 );
+
+// 
+function Glass() {
+    return (
+        <>
+            {5 > 2 && <h2>Hello</h2> }
+        </>
+    );
+}
