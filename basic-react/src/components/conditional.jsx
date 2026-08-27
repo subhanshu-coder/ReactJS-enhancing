@@ -15,3 +15,9 @@ function Goal(props) {
 createRoot(document.getElementById('root')).render(
   <Goal isGoal={false} />
 );
+
+// Try changing the isGoal attribute to true:
+// Example:
+createRoot(document.getElementById('root')).render(
+  <Goal isGoal={true} />
+);
