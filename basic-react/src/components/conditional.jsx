@@ -76,3 +76,12 @@ function Glass() {
         </>
     );
 }
+
+function Goal(props) {
+  const isGoal = props.isGoal;
+  return (
+    <>
+      { isGoal ? <MadeGoal/> : <MissedGoal/> }
+    </>
+  );
+}
