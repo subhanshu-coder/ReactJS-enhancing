@@ -11,3 +11,9 @@ body {
   justify-content:center;
   align-items: center;
 }
+
+.student {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size:2em;
+  border:1px solid black;
+}
