@@ -1,4 +1,6 @@
 import UserCard from "./components/props"
+// import Props from index.css
+
 function App () {
   return (
     <div>
