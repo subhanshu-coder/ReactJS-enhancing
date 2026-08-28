@@ -29,9 +29,9 @@ function Car(props) {
 // // variables has to be sent inside curly brackets
 // // let x = "Ford";
 
-// createRoot(document.getElementById('root')).render(
-//   <Car brand={x} />
-// );
+createRoot(document.getElementById('root')).render(
+  <Car brand={x} />
+);
 
 // // Objects and Arrays has to be sent inside curly brackets:
 // let x = [1964, 1965, 1966];
