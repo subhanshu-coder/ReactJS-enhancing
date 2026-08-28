@@ -85,4 +85,7 @@ function Student(props) {
     </div>
   );
 }
+Student.propTypes ={
+  name:PropTypes.string
+}
 export default Student
