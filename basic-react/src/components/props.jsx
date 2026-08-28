@@ -75,3 +75,12 @@
 // createRoot(document.getElementById('root')).render(
 //   <Car carinfo={carInfoArray} />
 // );
+
+function Student(props) {
+  return (
+    <>
+     <p>Name: {props.name}</p>
+    </>
+  )
+}
+export default Student
