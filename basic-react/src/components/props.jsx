@@ -78,9 +78,11 @@
 
 function Student(props) {
   return (
-    
-     <p>{props.name} {props.age}</p>
-    
+    <>
+     <p>{props.name}</p>
+     <p>{props.age}</p>
+     <p>student: {props.isstudent ? "yes" : "no"}</p>
+    </>
   )
 }
 export default Student
