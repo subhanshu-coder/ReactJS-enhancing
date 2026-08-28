@@ -20,11 +20,11 @@ createRoot(document.getElementById('root')).render(
 );
 
 // // use the property values in the car component
-// function Car(props) {
-//   return (
-//     <h2>I am a {props.color} {props.brand} {props.model}!</h2>
-//   );
-// }
+function Car(props) {
+  return (
+    <h2>I am a {props.color} {props.brand} {props.model}!</h2>
+  );
+}
 
 // // variables has to be sent inside curly brackets
 // // let x = "Ford";
