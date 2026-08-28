@@ -8,11 +8,11 @@ function Car(props) {
 // export default Car
 
 // // you can use myobj instead of props in the component
-// function Car(myobj) {
-//   return (
-//     <h2>I am a {myobj.brand}!</h2>
-//   );
-// }
+function Car(myobj) {
+  return (
+    <h2>I am a {myobj.brand}!</h2>
+  );
+}
 
 // // send multiple properties to the car component
 // createRoot(document.getElementById('root')).render(
