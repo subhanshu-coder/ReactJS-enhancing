@@ -15,9 +15,9 @@ function Car(myobj) {
 }
 
 // // send multiple properties to the car component
-// createRoot(document.getElementById('root')).render(
-//   <Car brand="Ford" model="Mustang" color="red" />
-// );
+createRoot(document.getElementById('root')).render(
+  <Car brand="Ford" model="Mustang" color="red" />
+);
 
 // // use the property values in the car component
 // function Car(props) {
