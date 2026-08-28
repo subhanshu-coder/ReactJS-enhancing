@@ -79,7 +79,7 @@
 function Student(props) {
   return (
     
-     <p>{props.name}</p>
+     <p>{props.name} {props.age}</p>
     
   )
 }
