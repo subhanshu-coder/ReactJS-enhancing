@@ -81,7 +81,7 @@ function Student(props) {
     <>
      <p>{props.name}</p>
      <p>{props.age}</p>
-     <p>student: {props.isstudent ? "yes" : "no"}</p>
+     <p>student: {props.isStudent ? "yes" : "no"}</p>
     </>
   )
 }
