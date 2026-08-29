@@ -5,3 +5,13 @@
 <textarea>
   Content of the textarea.
 </textarea>
+
+import { createRoot } from 'react-dom/client'
+import { useState } from 'react'
+
+function MyForm() {
+  const [mytxt, setMytxt] = useState("");
+
+  function handleChange(e) {
+    setMytxt(e.target.value);
+  }
