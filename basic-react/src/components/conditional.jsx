@@ -72,7 +72,7 @@ createRoot(document.getElementById('root')).render(
 function Glass() {
     return (
         <>
-            {5 > 2 &&} <h2>Hello</h2>
+            {/* {5 > 2 &&} <h2>Hello</h2> */}
         </>
     );
 }
