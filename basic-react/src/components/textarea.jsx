@@ -15,3 +15,12 @@ function MyForm() {
   function handleChange(e) {
     setMytxt(e.target.value);
   }
+  
+  return (
+    <form>
+      <label>Write here:
+        <textarea
+          value={mytxt}
+          onChange={handleChange}
+        />
+      </label>
