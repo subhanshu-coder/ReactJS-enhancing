@@ -70,11 +70,11 @@ function Car(props) {
   );
 }
 
-// const carInfoArray = ["Ford", "Mustang"];
+const carInfoArray = ["Ford", "Mustang"];
 
-// createRoot(document.getElementById('root')).render(
-//   <Car carinfo={carInfoArray} />
-// );
+createRoot(document.getElementById('root')).render(
+  <Car carinfo={carInfoArray} />
+);
 import PropTypes from 'prop-types'
 function Student(props) {
   return (
