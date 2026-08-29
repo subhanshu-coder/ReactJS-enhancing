@@ -6,6 +6,9 @@
   Content of the textarea.
 </textarea>
 
+// Example:
+// Get your own React.js Server
+// React uses the value attribute to control the textarea:
 import { createRoot } from 'react-dom/client'
 import { useState } from 'react'
 
