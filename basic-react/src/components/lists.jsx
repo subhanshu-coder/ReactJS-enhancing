@@ -21,14 +21,14 @@ function MyCars() {
     {id: 1003, brand: 'Audi'}
   ];
   return (
-    <>
-      <h1>My Cars:</h1>
-      <ul>
-        {cars.map((car) => <li key={car.id}>I am a { car.brand }</li>)}
-      </ul>
-    </>
-  );
-}
+//     <>
+//       <h1>My Cars:</h1>
+//       <ul>
+//         {cars.map((car) => <li key={car.id}>I am a { car.brand }</li>)}
+//       </ul>
+//     </>
+//   );
+// }
 
 // createRoot(document.getElementById('root')).render(
 //   <MyCars />
