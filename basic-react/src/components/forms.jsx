@@ -53,10 +53,10 @@ function MyForm() {
     setName(e.target.value);
   }
 
-  function handleSubmit(e) {
-    e.preventDefault();
-    alert(name);
-  }
+  // function handleSubmit(e) {
+  //   e.preventDefault();
+  //   alert(name);
+  // }
 //     return (
 //     <form onSubmit={handleSubmit}>
 //       <label>Enter your name:
