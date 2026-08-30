@@ -43,8 +43,8 @@ createRoot(document.getElementById('root')).render(
 // You can control the submit action by adding an event handler in the onSubmit attribute for the <form>:
 // add a submit button and an event handler in the onSubmit attribute:
 
-import { useState } from 'react';
-import { createRoot } from 'react-dom/client';
+// import { useState } from 'react';
+// import { createRoot } from 'react-dom/client';
 
 // function MyForm() {
 //   const [name, setName] = useState("");
