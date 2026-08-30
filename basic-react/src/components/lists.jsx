@@ -10,9 +10,9 @@ function MyCars() {
       );
 }
 
-createRoot(document.getElementById('root')).render(
-  <MyCars />
-);
+// createRoot(document.getElementById('root')).render(
+//   <MyCars />
+// );
 
 // function MyCars() {
 //   const cars = [
