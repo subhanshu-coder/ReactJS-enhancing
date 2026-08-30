@@ -30,6 +30,6 @@ function MyCars() {
   );
 }
 
-createRoot(document.getElementById('root')).render(
-  <MyCars />
-);
+// createRoot(document.getElementById('root')).render(
+//   <MyCars />
+// );
