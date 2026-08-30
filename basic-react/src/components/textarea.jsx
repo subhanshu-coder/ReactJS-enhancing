@@ -2,9 +2,9 @@
 // The textarea element in React is slightly different from ordinary HTML.
 
 // In HTML the value of a textarea is the text between the start tag <textarea> and the end tag </textarea>.
-<textarea>
+/*{ <textarea>
   Content of the textarea.
-</textarea>
+</textarea> }*/
 
 // Example:
 // Get your own React.js Server
