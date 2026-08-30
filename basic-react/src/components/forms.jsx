@@ -57,19 +57,19 @@ function MyForm() {
     e.preventDefault();
     alert(name);
   }
-    return (
-    <form onSubmit={handleSubmit}>
-      <label>Enter your name:
-        <input
-          type="text" 
-          value={name}
-          onChange={handleChange}
-        />
-      </label>
-      <input type="submit" />
-    </form>
-  )
-}
+//     return (
+//     <form onSubmit={handleSubmit}>
+//       <label>Enter your name:
+//         <input
+//           type="text" 
+//           value={name}
+//           onChange={handleChange}
+//         />
+//       </label>
+//       <input type="submit" />
+//     </form>
+//   )
+// }
 // createRoot(document.getElementById('root')).render(
 //   <MyForm />
 // );
