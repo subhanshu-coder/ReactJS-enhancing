@@ -13,31 +13,31 @@ createRoot(document.getElementById('root')).render(
 
 // Example:
 // Use the useState Hook to manage the input:
-// import { useState } from 'react';
-// import { createRoot } from 'react-dom/client';
+import { useState } from 'react';
+import { createRoot } from 'react-dom/client';
 
-// function MyForm() {
-//   const [name, setName] = useState("");
+function MyForm() {
+  const [name, setName] = useState("");
 
-//   function handleChange(e) {
-//     setName(e.target.value);
-//   }
-//     return (
-//     <form>
-//       <label>Enter your name:
-//         <input
-//           type="text" 
-//           value={name}
-//           onChange={handleChange}
-//         />
-//       </label>
-//       <p>Current value: {name}</p>
-//     </form>
-//   )
-// }
-// createRoot(document.getElementById('root')).render(
-//   <MyForm />
-// );
+  function handleChange(e) {
+    setName(e.target.value);
+  }
+    return (
+    <form>
+      <label>Enter your name:
+        <input
+          type="text" 
+          value={name}
+          onChange={handleChange}
+        />
+      </label>
+      <p>Current value: {name}</p>
+    </form>
+  )
+}
+createRoot(document.getElementById('root')).render(
+  <MyForm />
+);
 
 // Submitting Forms
 // You can control the submit action by adding an event handler in the onSubmit attribute for the <form>:
