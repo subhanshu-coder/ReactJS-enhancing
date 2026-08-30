@@ -46,12 +46,12 @@ createRoot(document.getElementById('root')).render(
 import { useState } from 'react';
 import { createRoot } from 'react-dom/client';
 
-function MyForm() {
-  const [name, setName] = useState("");
+// function MyForm() {
+//   const [name, setName] = useState("");
 
-  function handleChange(e) {
-    setName(e.target.value);
-  }
+//   function handleChange(e) {
+//     setName(e.target.value);
+//   }
 
   // function handleSubmit(e) {
   //   e.preventDefault();
