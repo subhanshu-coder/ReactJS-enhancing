@@ -13,10 +13,10 @@
 {/* <button onclick="shoot()">Take the Shot!</button> */}
 
 // Put the shoot function inside the Football component:
-function Football() {
-  const shoot = () => {  //function starting point 
-    alert("Great Shot!");
-  }
+// function Football() {
+//   const shoot = () => {  //function starting point 
+//     alert("Great Shot!");
+//   }
 
    return (
     <button onClick={shoot}>Take the shot!</button>
