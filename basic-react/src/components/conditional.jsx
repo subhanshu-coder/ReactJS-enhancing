@@ -77,10 +77,10 @@ createRoot(document.getElementById('root')).render(
 //     );
 // }
 
-function Goal(props) {
-  const isGoal = props.isGoal;
-  return (
-    <>
+// function Goal(props) {
+//   const isGoal = props.isGoal;
+//   return (
+//     <>
       { isGoal ? <MadeGoal/> : <MissedGoal/> }
     </>
   );
