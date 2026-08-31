@@ -38,13 +38,18 @@
 }
 
 body {
-  height: 100vh;
-  display:flex;
+  /* height: 100vh;
+  display:flex; */
   /* justify-content:center;
   align-items: center; */
   background-color: #111;
 }
-
+ .parent {
+  padding:20px;
+  display:flex;
+  flex-wrap:wrap;
+  gap:20px;
+ }
 
 /* .student {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
