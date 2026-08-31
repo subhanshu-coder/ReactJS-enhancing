@@ -6,8 +6,8 @@ function App () {
   return (
     <div className = 'parent'>
       <Card />
-      <Card />
-      <Card />
+      <Card user="sarthak sharma"/>
+      <Card user="harsh patel"/>
     </div>
 
   );

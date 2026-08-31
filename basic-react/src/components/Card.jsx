@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Card() {
+function Card(props) {
   return (
     <div className="child">
       <img
@@ -8,7 +8,7 @@ function Card() {
         alt="Holographic dome"
       />
 
-      <h1>Prince Pal</h1>
+      <h1>Prince Pal{props.user}</h1>
       <p>Just sense the human behaviour how they belong to dumb society</p>
       <button>Check the profile</button>
     </div>
