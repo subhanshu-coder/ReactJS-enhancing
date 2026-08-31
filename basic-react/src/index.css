@@ -21,6 +21,11 @@
   margin:30px 0px;
 }
 
+.child img{
+  height:100px;
+  width :100px;
+}
+
 body {
   height: 100vh;
   display:flex;
