@@ -23,9 +23,9 @@
 //   );
 // }
 
-createRoot(document.getElementById('root')).render(
-  <Football />
-);
+// createRoot(document.getElementById('root')).render(
+//   <Football />
+// );
 
 // Passing Arguments
 // To pass an argument to an event handler, use an arrow function.
