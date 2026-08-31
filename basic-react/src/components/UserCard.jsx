@@ -1,9 +1,9 @@
-import React from 'react'
+// import React from 'react'
 
-// arrow function 
+// // arrow function 
 
-const UserCard = () => {  
-  return (
+// const UserCard = () => {  
+//   return (
 
     <div>
      <h1>User Card</h1>
