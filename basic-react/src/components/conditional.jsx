@@ -81,10 +81,10 @@ createRoot(document.getElementById('root')).render(
 //   const isGoal = props.isGoal;
 //   return (
 //     <>
-      { isGoal ? <MadeGoal/> : <MissedGoal/> }
-    </>
-  );
-}
+//       { isGoal ? <MadeGoal/> : <MissedGoal/> }
+//     </>
+//   );
+// }
 
 createRoot(document.getElementById('root')).render(
   <Goal isGoal={false} />
