@@ -9,11 +9,11 @@
 // Example:
 // Get your own React.js Server
 // React uses the value attribute to control the textarea:
-// import { createRoot } from 'react-dom/client'
-// import { useState } from 'react'
+import { createRoot } from 'react-dom/client'
+import { useState } from 'react'
 
-// function MyForm() {
-//   const [mytxt, setMytxt] = useState("");
+function MyForm() {
+  const [mytxt, setMytxt] = useState("");
 
   function handleChange(e) {
     setMytxt(e.target.value);
