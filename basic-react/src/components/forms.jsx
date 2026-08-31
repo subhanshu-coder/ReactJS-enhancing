@@ -7,9 +7,9 @@ function MyForm() {
     </form>
   )
 }
-createRoot(document.getElementById('root')).render(
-  <MyForm />
-);
+// createRoot(document.getElementById('root')).render(
+//   <MyForm />
+// );
 
 // Example:
 // Use the useState Hook to manage the input:
