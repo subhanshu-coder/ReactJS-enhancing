@@ -17,8 +17,8 @@
     //  <h1>you are steve</h1>
     // </div>
 
-//   )
+  )
   
-// }
+}
 
-// export default UserCard
+export default UserCard
