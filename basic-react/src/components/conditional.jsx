@@ -86,6 +86,6 @@ createRoot(document.getElementById('root')).render(
 //   );
 // }
 
-createRoot(document.getElementById('root')).render(
-  <Goal isGoal={false} />
-);
+// createRoot(document.getElementById('root')).render(
+//   <Goal isGoal={false} />
+// );
