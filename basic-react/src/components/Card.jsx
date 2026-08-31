@@ -1,14 +1,18 @@
 import React from 'react'
 
-function Card () {
+function Card() {
+  return (
+    <div className="child">
+      <img
+        src="https://images.unsplash.com/photo-1752350434967-29fe9a749b37?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDR8Q0R3dXdYSkFiRXd8fGVufDB8fHx8fA%3D%3D"
+        alt="Holographic dome"
+      />
 
-    return (
-        <div className ='child'>
-          <img src= "https://unsplash.com/photos/a-holographic-dome-with-circular-openings-dPzF4JbtxC8?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink"></img>
-          <h1>prince pal</h1>
-          <p>just sense the human behaviour how they belong to dumb society</p>
-          <button>check the profile</button>
-        </div>
-    )
+      <h1>Prince Pal</h1>
+      <p>Just sense the human behaviour how they belong to dumb society</p>
+      <button>Check the profile</button>
+    </div>
+  )
 }
+
 export default Card
