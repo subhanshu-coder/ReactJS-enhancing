@@ -30,11 +30,11 @@ function MyForm() {
           value={name}
           onChange={handleChange}
         />
-      </label>
+      {/* </label>
       <p>Current value: {name}</p>
     </form>
   )
-}
+} */}
 // createRoot(document.getElementById('root')).render(
 //   <MyForm />
 // );
