@@ -7,7 +7,7 @@
 // onClick={shoot}  instead of onclick="shoot()".
 
 // React:Get your own React.js Server
-<button onClick={shoot}>Take the Shot!</button>
+{/* <button onClick={shoot}>Take the Shot!</button> */}
 
 // HTML:
 {/* <button onclick="shoot()">Take the Shot!</button> */}
