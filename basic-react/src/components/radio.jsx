@@ -44,3 +44,8 @@ return (
           onChange={handleChange} 
         /> Cherry
       </label>
+          <br />
+      <button type="submit">Submit</button>
+    </form>
+  );
+}
