@@ -101,3 +101,14 @@ function App() {
         <Link to="/products">Products</Link> |{" "}
         <Link to="/contact">Contact</Link>
       </nav>
+         <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/products" element={<Products />}>
+          <Route path="car" element={<CarProducts />} />
+          <Route path="bike" element={<BikeProducts />} />
+        </Route>
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </BrowserRouter>
+  );
+}
