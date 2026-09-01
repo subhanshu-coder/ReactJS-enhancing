@@ -34,3 +34,13 @@ return (
           onChange={handleChange} 
         /> Banana
       </label>
+        <br />
+      <label>
+        <input 
+          type="radio" 
+          name="fruit" 
+          value="cherry" 
+          checked={selectedFruit === 'cherry'} 
+          onChange={handleChange} 
+        /> Cherry
+      </label>
