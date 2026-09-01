@@ -49,3 +49,7 @@ return (
     </form>
   );
 }
+
+createRoot(document.getElementById('root')).render(
+  <MyForm />
+);
