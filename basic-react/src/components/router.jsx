@@ -91,3 +91,13 @@ function BikeProducts() {
 function Contact() {
   return <h1>Contact Page</h1>;
 }
+
+function App() {
+  return (
+    <BrowserRouter>
+      {/* Navigation */}
+      <nav>
+        <Link to="/">Home</Link> |{" "}
+        <Link to="/products">Products</Link> |{" "}
+        <Link to="/contact">Contact</Link>
+      </nav>
