@@ -17,4 +17,10 @@ return (
       <p>Select your favorite fruit:</p>
       <label>
         <input 
-         
+          type="radio" 
+          name="fruit" 
+          value="apple" 
+          checked={selectedFruit === 'apple'} 
+          onChange={handleChange} 
+        /> Apple
+      </label>
