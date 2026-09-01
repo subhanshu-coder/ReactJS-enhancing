@@ -12,3 +12,9 @@ function MyForm() {
     alert(`Your favorite fruit is: ${selectedFruit}`);
     event.preventDefault();
   };
+return (
+    <form onSubmit={handleSubmit}>
+      <p>Select your favorite fruit:</p>
+      <label>
+        <input 
+         
