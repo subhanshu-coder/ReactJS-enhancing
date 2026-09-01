@@ -1,6 +1,6 @@
-// function MyCars() {
-//   const cars = ['Ford', 'BMW', 'Audi'];
-//   return (
+ function MyCars() {
+   const cars = ['Ford', 'BMW', 'Audi'];
+   return (
     <>
       <h1>My Cars:</h1>
       <ul>
