@@ -70,6 +70,6 @@ function MyForm() {
     </form>
   )
 }
-// createRoot(document.getElementById('root')).render(
-//   <MyForm />
-// );
+createRoot(document.getElementById('root')).render(
+  <MyForm />
+);
