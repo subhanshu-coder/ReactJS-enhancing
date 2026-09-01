@@ -4,11 +4,11 @@
 //     <>
 //       <h1>My Cars:</h1>
 //       <ul>
-//         {cars.map((car) => <li>I am a { car }</li>)}
-//       </ul>
-//     </>
-//       );
-// }
+        {cars.map((car) => <li>I am a { car }</li>)}
+      </ul>
+    </>
+      );
+}
 
 createRoot(document.getElementById('root')).render(
   <MyCars />
