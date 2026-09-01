@@ -7,3 +7,8 @@ function MyForm() {
   const handleChange = (event) => {
     setSelectedFruit(event.target.value);
   };
+
+    const handleSubmit = (event) => {
+    alert(`Your favorite fruit is: ${selectedFruit}`);
+    event.preventDefault();
+  };
