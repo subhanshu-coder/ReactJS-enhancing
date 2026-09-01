@@ -87,3 +87,7 @@ function BikeProducts() {
     </div>
   );
 }
+
+function Contact() {
+  return <h1>Contact Page</h1>;
+}
