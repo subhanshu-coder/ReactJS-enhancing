@@ -34,3 +34,15 @@ function App() {
   const focusInput = () => {
     inputElement.current.focus();
   };
+
+    return (
+    <>
+      <input type="text" ref={inputElement} />
+      <button onClick={focusInput}>Focus Input</button>
+    </>
+  );
+}
+
+createRoot(document.getElementById('root')).render(
+  <App />
+);
