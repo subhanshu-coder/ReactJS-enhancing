@@ -13,3 +13,18 @@ const initialScore = [
     name: "Sally",
   },
 ];
+
+const reducer = (state, action) => {
+  switch (action.type) {
+    case "INCREASE":
+      return state.map((player) => {
+        if (player.id === action.id) {
+          return { ...player, score: player.score + 1 };
+        } else {
+          return player;
+        }
+      });
+    default:
+      return state;
+  }
+};
