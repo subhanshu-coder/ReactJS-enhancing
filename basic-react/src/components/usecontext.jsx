@@ -29,3 +29,7 @@ function Component3({ user }) {
     </>
   );
 }
+
+createRoot(document.getElementById('root')).render(
+  <Component1 />
+);
