@@ -33,3 +33,14 @@ function Component3({ user }) {
 createRoot(document.getElementById('root')).render(
   <Component1 />
 );
+
+function Component1() {
+  const [user, setUser] = useState("Linus");
+
+  return (
+    <UserContext.Provider value={user}>
+      <h1>{`Hello ${user}!`}</h1>
+      <Component2 />
+    </UserContext.Provider>
+  );
+}
