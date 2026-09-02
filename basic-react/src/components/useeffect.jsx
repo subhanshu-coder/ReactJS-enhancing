@@ -46,3 +46,16 @@ function Counter() {
   useEffect(() => {
     setCalculation(() => count * 2);
   }, [count]); // <- add the count variable here
+
+    return (
+    <>
+      <p>Count: {count}</p>
+      <button onClick={() => setCount((c) => c + 1)}>+</button>
+      <p>Calculation: {calculation}</p>
+    </>
+  );
+}
+
+createRoot(document.getElementById('root')).render(
+  <Counter />
+);
