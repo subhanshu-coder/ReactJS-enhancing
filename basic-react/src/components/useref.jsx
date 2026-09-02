@@ -8,3 +8,19 @@ function App() {
   useEffect(() => {
     count.current = count.current + 1;
   });
+   return (
+    <>
+      <p>Type in the input field:</p>
+      <input
+        type="text"
+        value={inputValue}
+        onChange={(e) => setInputValue(e.target.value)}
+      />
+      <h1>Render Count: {count.current}</h1>
+    </>
+  );
+}
+
+createRoot(document.getElementById('root')).render(
+  <App />
+);
