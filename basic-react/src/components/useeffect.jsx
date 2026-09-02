@@ -56,6 +56,4 @@ function Counter() {
   );
 }
 
-createRoot(document.getElementById('root')).render(
-  <Counter />
-);
+
