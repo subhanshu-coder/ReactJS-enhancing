@@ -79,3 +79,9 @@ function MyCar() {
 createRoot(document.getElementById('root')).render(
   <MyCar />
 );
+
+const updateColor = () => {
+  setCar(previousState => {
+    return { ...previousState, color: "blue" }
+  });
+}
