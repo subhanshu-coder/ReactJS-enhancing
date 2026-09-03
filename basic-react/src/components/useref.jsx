@@ -21,19 +21,6 @@ function App() {
   );
 }
 
-createRoot(document.getElementById('root')).render(
-  <App />
-);
-
-import { useRef } from 'react';
-import { createRoot } from 'react-dom/client';
-
-function App() {
-  const inputElement = useRef();
-
-  const focusInput = () => {
-    inputElement.current.focus();
-  };
 
 
 
