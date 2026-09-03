@@ -58,11 +58,5 @@ function App() {
     previousInputValue.current = inputValue;
   }, [inputValue]);
 
-    return (
-    <>
-      <input
-        type="text"
-        value={inputValue}
-        onChange={(e) => setInputValue(e.target.value)}
-      />
+
 
