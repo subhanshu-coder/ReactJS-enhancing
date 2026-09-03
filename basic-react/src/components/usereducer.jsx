@@ -45,14 +45,3 @@ function Score() {
               onClick={() => handleIncrease(player)}
               value={player.name}
             />
-            {player.score}
-          </label>
-        </div>
-      ))}
-    </>
-  );
-}
-
-createRoot(document.getElementById('root')).render(
-  <Score />
-);
