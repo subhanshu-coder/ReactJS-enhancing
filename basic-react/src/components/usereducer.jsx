@@ -29,10 +29,3 @@ const reducer = (state, action) => {
   }
 };
 
-function Score() {
-  const [score, dispatch] = useReducer(reducer, initialScore);
-
-  const handleIncrease = (player) => {
-    dispatch({ type: "INCREASE", id: player.id });
-  };
->
