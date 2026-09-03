@@ -25,12 +25,3 @@ function MyForm() {
         <textarea
           value={mytxt}
           onChange={handleChange}
-        />
-      </label>
-      <p>Current value: {mytxt}</p>
-    </form>
-  )
-}
-createRoot(document.getElementById('root')).render(
-  <MyForm />
-);
