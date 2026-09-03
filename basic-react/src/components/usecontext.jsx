@@ -12,23 +12,7 @@ function Component1() {
   );
 }
 
-function Component2({ user }) {
-  return (
-    <>
-      <h1>Component 2</h1>
-      <Component3 user={user} />
-    </>
-  );
-}
 
-function Component3({ user }) {
-  return (
-    <>
-      <h1>Component 3</h1>
-      <h2>{`Hello ${user} again!`}</h2>
-    </>
-  );
-}
 
 
 
