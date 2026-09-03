@@ -35,13 +35,4 @@ function Score() {
   const handleIncrease = (player) => {
     dispatch({ type: "INCREASE", id: player.id });
   };
-  return (
-    <>
-      {score.map((player) => (
-        <div key={player.id}>
-          <label>
-            <input
-              type="button"
-              onClick={() => handleIncrease(player)}
-              value={player.name}
-            />
+>
