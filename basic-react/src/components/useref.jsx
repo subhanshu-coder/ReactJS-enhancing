@@ -65,13 +65,4 @@ function App() {
         value={inputValue}
         onChange={(e) => setInputValue(e.target.value)}
       />
-      <h2>Current Value: {inputValue}</h2>
-      <h2>Previous Value: {previousInputValue.current}</h2>
-    </>
-  );
-}
-
-createRoot(document.getElementById('root')).render(
-  <App />
-);
 
