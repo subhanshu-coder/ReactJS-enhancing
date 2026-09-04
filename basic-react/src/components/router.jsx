@@ -7,18 +7,18 @@ function App() {
 }
 
 //example of react router
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
-function Home() {
-  return <h1>Home Page</h1>;
-}
+// import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+// function Home() {
+//   return <h1>Home Page</h1>;
+// }
 
-function About() {
-  return <h1>About Page</h1>;
-}
+// function About() {
+//   return <h1>About Page</h1>;
+// }
 
-function Contact() {
-  return <h1>Contact Page</h1>;
-}
+// function Contact() {
+//   return <h1>Contact Page</h1>;
+// }
 
 // function App() {
 //   return (
