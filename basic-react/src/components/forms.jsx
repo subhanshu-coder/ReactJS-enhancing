@@ -35,9 +35,9 @@ function MyForm() {
     </form>
   )
 } 
-// createRoot(document.getElementById('root')).render(
-//   <MyForm />
-// );
+createRoot(document.getElementById('root')).render(
+  <MyForm />
+);
 
 // Submitting Forms
 // You can control the submit action by adding an event handler in the onSubmit attribute for the <form>:
