@@ -1,10 +1,10 @@
-function App() {
-  return (
-    <BrowserRouter>
-      {/* Your app content */}
-    </BrowserRouter>
-  );
-}
+// function App() {
+//   return (
+//     <BrowserRouter>
+//       {/* Your app content */}
+//     </BrowserRouter>
+//   );
+// }
 
 //example of react router
 // import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
