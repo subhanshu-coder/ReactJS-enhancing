@@ -75,22 +75,22 @@ function CarProducts() {
   );
 }
 
-function BikeProducts() {
-  return (
-    <div>
-      <h2>Bikes</h2>
-      <ul>
-        <li>Yamaha</li>
-        <li>Suzuki</li>
-        <li>Honda</li>
-      </ul>
-    </div>
-  );
-}
+// function BikeProducts() {
+//   return (
+//     <div>
+//       <h2>Bikes</h2>
+//       <ul>
+//         <li>Yamaha</li>
+//         <li>Suzuki</li>
+//         <li>Honda</li>
+//       </ul>
+//     </div>
+//   );
+// }
 
-function Contact() {
-  return <h1>Contact Page</h1>;
-}
+// function Contact() {
+//   return <h1>Contact Page</h1>;
+// }
 
 // function App() {
 //   return (
