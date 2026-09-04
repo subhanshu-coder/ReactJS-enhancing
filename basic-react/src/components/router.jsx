@@ -92,29 +92,29 @@ function Contact() {
   return <h1>Contact Page</h1>;
 }
 
-function App() {
-  return (
-    <BrowserRouter>
-      {/* Navigation */}
-      <nav>
-        <Link to="/">Home</Link> |{" "}
-        <Link to="/products">Products</Link> |{" "}
-        <Link to="/contact">Contact</Link>
-      </nav>
-         <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/products" element={<Products />}>
-          <Route path="car" element={<CarProducts />} />
-          <Route path="bike" element={<BikeProducts />} />
-        </Route>
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-    </BrowserRouter>
-  );
-}
+// function App() {
+//   return (
+//     <BrowserRouter>
+//       {/* Navigation */}
+//       <nav>
+//         <Link to="/">Home</Link> |{" "}
+//         <Link to="/products">Products</Link> |{" "}
+//         <Link to="/contact">Contact</Link>
+//       </nav>
+//          <Routes>
+//         <Route path="/" element={<Home />} />
+//         <Route path="/products" element={<Products />}>
+//           <Route path="car" element={<CarProducts />} />
+//           <Route path="bike" element={<BikeProducts />} />
+//         </Route>
+//         <Route path="/contact" element={<Contact />} />
+//       </Routes>
+//     </BrowserRouter>
+//   );
+// }
 
 
-import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom';
+// import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom';
 
 // Style function for active links
 // const navLinkStyles = ({ isActive }) => ({
