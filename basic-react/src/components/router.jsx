@@ -44,23 +44,23 @@ function App() {
 
 // new one
 
-// import { BrowserRouter, Routes, Route, Link, Outlet } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Link, Outlet } from 'react-router-dom';
 
-// function Home() {
-//   return <h1>Home Page</h1>;
-// }
-// function Products() {
-//   return (
-//     <div>
-//       <h1>Products Page</h1>
-//       <nav style={{ marginBottom: '20px' }}>
-//         <Link to="/products/car">Cars</Link> |{" "}
-//         <Link to="/products/bike">Bikes</Link>
-//       </nav> 
-//       <Outlet /> 
-//     </div>
-//   );
-// }
+function Home() {
+  return <h1>Home Page</h1>;
+}
+function Products() {
+  return (
+    <div>
+      <h1>Products Page</h1>
+      <nav style={{ marginBottom: '20px' }}>
+        <Link to="/products/car">Cars</Link> |{" "}
+        <Link to="/products/bike">Bikes</Link>
+      </nav> 
+      <Outlet /> 
+    </div>
+  );
+}
 
 // function CarProducts() {
 //   return (
