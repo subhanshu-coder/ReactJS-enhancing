@@ -19,12 +19,12 @@ const [run , setNum ] =usestate(0)
 
 // export default App
 
-const push = () => {
-const [run , setNum ] =usestate(0)
-const [timer , setTimer] = usestate(0)
-   useeffect(function() {
-    console.log("useEffect is called")
-   })
+// const push = () => {
+// const [run , setNum ] =usestate(0)
+// const [timer , setTimer] = usestate(0)
+//    useeffect(function() {
+//     console.log("useEffect is called")
+//    })
 // return (
 //         <div>
 //             <h1>running</h1>
