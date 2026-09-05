@@ -4,23 +4,23 @@
 // Example:
 // Now, we'll create another component that chooses which component to render based on a condition:
 
-// function Goal(props) {
-//   const isGoal = props.isGoal;
-//    if (isGoal) {
-//     return <MadeGoal/>;
-//   }
-//     return <MissedGoal/>;
-// }
+function Goal(props) {
+  const isGoal = props.isGoal;
+   if (isGoal) {
+    return <MadeGoal/>;
+  }
+    return <MissedGoal/>;
+}
 
-// createRoot(document.getElementById('root')).render(
-//   <Goal isGoal={false} />
-// );
+createRoot(document.getElementById('root')).render(
+  <Goal isGoal={false} />
+);
 
-// // Try changing the isGoal attribute to true:
-// // Example:
-// createRoot(document.getElementById('root')).render(
-//   <Goal isGoal={true} />
-// );
+// Try changing the isGoal attribute to true:
+// Example:
+createRoot(document.getElementById('root')).render(
+  <Goal isGoal={true} />
+);
 
 // Logical && Operator
 // Another way to conditionally render a React component is by using the && operator.
