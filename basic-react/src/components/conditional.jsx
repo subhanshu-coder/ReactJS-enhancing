@@ -12,15 +12,15 @@
 //     return <MissedGoal/>;
 // }
 
-createRoot(document.getElementById('root')).render(
-  <Goal isGoal={false} />
-);
+// createRoot(document.getElementById('root')).render(
+//   <Goal isGoal={false} />
+// );
 
-// Try changing the isGoal attribute to true:
-// Example:
-createRoot(document.getElementById('root')).render(
-  <Goal isGoal={true} />
-);
+// // Try changing the isGoal attribute to true:
+// // Example:
+// createRoot(document.getElementById('root')).render(
+//   <Goal isGoal={true} />
+// );
 
 // Logical && Operator
 // Another way to conditionally render a React component is by using the && operator.
