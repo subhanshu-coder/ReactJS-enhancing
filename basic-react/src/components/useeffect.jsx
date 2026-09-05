@@ -1,10 +1,10 @@
-// const App = () => {
+const App = () => {
 
-// const [run , setNum ] =usestate(0)
+const [run , setNum ] =usestate(0)
  
-//   useEffect(function() {
-//     console.log("useEffect is called")
-//   })
+  useEffect(function() {
+    console.log("useEffect is called")
+  })
 
 //     return (
 //         <div>
