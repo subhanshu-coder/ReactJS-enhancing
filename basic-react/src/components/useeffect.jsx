@@ -25,14 +25,14 @@ const [timer , setTimer] = usestate(0)
    useeffect(function() {
     console.log("useEffect is called")
    })
-return (
-        <div>
-            <h1>running</h1>
-            <h2>timer</h2>
-            <button 
-            onMouseEnter = {() => {
-                setNum(run+1)
-            }}
+// return (
+//         <div>
+//             <h1>running</h1>
+//             <h2>timer</h2>
+//             <button 
+//             onMouseEnter = {() => {
+//                 setNum(run+1)
+//             }}
 //             onMouseleave = {() =>{
 //                 setTimer(timer+1)
 //             }}
