@@ -33,14 +33,14 @@ return (
             onMouseEnter = {() => {
                 setNum(run+1)
             }}
-            onMouseleave = {() =>{
-                setTimer(timer+1)
-            }}
-            >hover me!</button>
-        </div>
-    )
-}
-export default push
+//             onMouseleave = {() =>{
+//                 setTimer(timer+1)
+//             }}
+//             >hover me!</button>
+//         </div>
+//     )
+// }
+// export default push
 
 
 
