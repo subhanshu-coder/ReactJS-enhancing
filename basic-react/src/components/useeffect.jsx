@@ -17,7 +17,7 @@ const [run , setNum ] =usestate(0)
     )
 }
 
-export default App
+// export default App
 
 const push = () => {
 const [run , setNum ] =usestate(0)
