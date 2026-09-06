@@ -51,16 +51,16 @@ function Car(props) {
   );
 }
 
-// const carInfo = {
-//   name: "Ford",
-//   model: "Mustang",
-//   color: "red",
-//   year: 1969
-// };
+const carInfo = {
+  name: "Ford",
+  model: "Mustang",
+  color: "red",
+  year: 1969
+};
 
-// createRoot(document.getElementById('root')).render(
-//   <Car carinfo={carInfo} />
-// );
+createRoot(document.getElementById('root')).render(
+  <Car carinfo={carInfo} />
+);
 
 // // Use the indexes to access array properties:
 
