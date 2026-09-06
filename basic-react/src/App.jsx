@@ -16,17 +16,17 @@
 // }
 // export default App;
 
-import UserCard from './components/UserCard'
-import { UserContext } from './components/usecontext'
+// import UserCard from './components/UserCard'
+// import { UserContext } from './components/usecontext'
 
-const App = () => {
-  const username = "subhanshu";
+// const App = () => {
+//   const username = "subhanshu";
 
-  return (
-    <UserContext.Provider value = {username}>
-      <UserCard />
-    </UserContext.Provider>
-  )
-}
+//   return (
+//     <UserContext.Provider value = {username}>
+//       <UserCard />
+//     </UserContext.Provider>
+//   )
+// }
 
-export default App
+// export default App
