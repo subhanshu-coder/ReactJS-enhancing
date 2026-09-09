@@ -48,34 +48,34 @@ createRoot(document.getElementById('root')).render(
 );
 
 // Ternary Operator
-// function Goal(props) {
-//   const isGoal = props.isGoal;
-//   return (
-//     <>
-//       { isGoal ? <MadeGoal/> : <MissedGoal/> }
-//     </>
-//   );
-// }
-// createRoot(document.getElementById('root')).render(
-//   <Goal isGoal={false} />
-// );
+function Goal(props) {
+  const isGoal = props.isGoal;
+  return (
+    <>
+      { isGoal ? <MadeGoal/> : <MissedGoal/> }
+    </>
+  );
+}
+createRoot(document.getElementById('root')).render(
+  <Goal isGoal={false} />
+);
 
-// // 
-// function Glass() {
-//     return (
-//         <>
-//             {5 > 2 && <h2>Hello</h2> }
-//         </>
-//     );
-// }
+// 
+function Glass() {
+    return (
+        <>
+            {5 > 2 && <h2>Hello</h2> }
+        </>
+    );
+}
 
-// function Glass() {
-//     return (
-//         <>
-//             {/* {5 > 2  &&} <h2>Hello</h2> */}
-//         </>
-//     );
-// }
+function Glass() {
+    return (
+        <>
+            {/* {5 > 2  &&} <h2>Hello</h2> */}
+        </>
+    );
+}
 
 function Goal(props) {
   const isGoal = props.isGoal;
