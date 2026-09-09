@@ -48,3 +48,26 @@ function Example() {
     </UserContext.Provider>
   );
 }
+
+const UserContext = createContext();
+
+function Example() {
+  const [user, setUser] = useState("Subhanshu");
+
+  return (
+    <UserContext.Provider value={{ user, setUser }}>
+      <User />
+    </UserContext.Provider>
+  );
+}
+
+function User() {
+  const { user, setUser } = useContext(UserContext);
+
+  return (
+    <>
+      <h1>{user}</h1>
+      <button onClick={() => setUser("Rahul")}>Change</button>
+    </>
+  );
+}
