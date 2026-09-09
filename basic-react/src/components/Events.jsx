@@ -13,19 +13,19 @@
 {/* <button onclick="shoot()">Take the Shot!</button> */}
 
 // Put the shoot function inside the Football component:
-// function Football() {
-//   const shoot = () => {  //function starting point 
-//     alert("Great Shot!");
-//   }
+function Football() {
+  const shoot = () => {  //function starting point 
+    alert("Great Shot!");
+  }
 
-//    return (
-//     <button onClick={shoot}>Take the shot!</button>
-//   );
-// }
+   return (
+    <button onClick={shoot}>Take the shot!</button>
+  );
+}
 
-// createRoot(document.getElementById('root')).render(
-//   <Football />
-// );
+createRoot(document.getElementById('root')).render(
+  <Football />
+);
 
 // Passing Arguments
 // To pass an argument to an event handler, use an arrow function.
