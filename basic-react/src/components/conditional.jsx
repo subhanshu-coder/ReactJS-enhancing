@@ -77,15 +77,15 @@ function Glass() {
     );
 }
 
-// function Goal(props) {
-//   const isGoal = props.isGoal;
-//   return (
-//     <>
-//       { isGoal ? <MadeGoal/> : <MissedGoal/> }
-//     </>
-//   );
-// }
+function Goal(props) {
+  const isGoal = props.isGoal;
+  return (
+    <>
+      { isGoal ? <MadeGoal/> : <MissedGoal/> }
+    </>
+  );
+}
 
-// createRoot(document.getElementById('root')).render(
-//   <Goal isGoal={false} />
-// );
+createRoot(document.getElementById('root')).render(
+  <Goal isGoal={false} />
+);
