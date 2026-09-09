@@ -1,10 +1,10 @@
-// function Car(props) {
-//   return (
+function Car(props) {
+  return (
   
-//     <h1>My car is a {props.brand}</h1>
+    <h1>My car is a {props.brand}</h1>
     
-//   );
-// }
+  );
+}
 // export default Car
 
 // // you can use myobj instead of props in the component
