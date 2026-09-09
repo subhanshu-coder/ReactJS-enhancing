@@ -49,7 +49,7 @@ function Example() {
   );
 }
 
-const UserContext = createContext();
+// const UserContext = createContext();
 
 function Example() {
   const [user, setUser] = useState("Subhanshu");
