@@ -30,3 +30,21 @@ function Counter() {
 }
 
 export default Counter;
+
+import { createContext, useContext } from "react";
+
+const UserContext = createContext();
+
+function User() {
+  const user = useContext(UserContext);
+
+  return <h1>Hello {user}</h1>;
+}
+
+function Example() {
+  return (
+    <UserContext.Provider value="Subhanshu">
+      <User />
+    </UserContext.Provider>
+  );
+}
