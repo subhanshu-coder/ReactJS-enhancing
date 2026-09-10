@@ -64,17 +64,17 @@ createRoot(document.getElementById('root')).render(
 
 // // Use the indexes to access array properties:
 
-// function Car(props) {
-//   return (
-//     <h2>My car is a {props.carinfo[0]} {props.carinfo[1]}!</h2>
-//   );
-// }
+function Car(props) {
+  return (
+    <h2>My car is a {props.carinfo[0]} {props.carinfo[1]}!</h2>
+  );
+}
 
-// const carInfoArray = ["Ford", "Mustang"];
+const carInfoArray = ["Ford", "Mustang"];
 
-// createRoot(document.getElementById('root')).render(
-//   <Car carinfo={carInfoArray} />
-// );
+createRoot(document.getElementById('root')).render(
+  <Car carinfo={carInfoArray} />
+);
 // import PropTypes from 'prop-types'
 // function Student(props) {
 //   return (
