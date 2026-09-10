@@ -75,17 +75,17 @@ const carInfoArray = ["Ford", "Mustang"];
 createRoot(document.getElementById('root')).render(
   <Car carinfo={carInfoArray} />
 );
-import PropTypes from 'prop-types'
-function Student(props) {
-  return (
-    <div className= "student">
-     <p>{props.name}</p>
-     <p>{props.age}</p>
-     <p>student: {props.isStudent ? "yes" : "no"}</p>
-    </div>
-  );
-}
-Student.propTypes ={
-  name:PropTypes.string
-}
-export default Student
+// import PropTypes from 'prop-types'
+// function Student(props) {
+//   return (
+//     <div className= "student">
+//      <p>{props.name}</p>
+//      <p>{props.age}</p>
+//      <p>student: {props.isStudent ? "yes" : "no"}</p>
+//     </div>
+//   );
+// }
+// Student.propTypes ={
+//   name:PropTypes.string
+// }
+// export default Student
