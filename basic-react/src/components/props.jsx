@@ -29,17 +29,17 @@ function Car(props) {
 // // variables has to be sent inside curly brackets
 // // let x = "Ford";
 
-// createRoot(document.getElementById('root')).render(
-//   <Car brand={x} />
-// );
+createRoot(document.getElementById('root')).render(
+  <Car brand={x} />
+);
 
-// // // Objects and Arrays has to be sent inside curly brackets:
-// let x = [1964, 1965, 1966];
-// let y = {name: "Ford", model: "Mustang"};
+// // Objects and Arrays has to be sent inside curly brackets:
+let x = [1964, 1965, 1966];
+let y = {name: "Ford", model: "Mustang"};
 
-// createRoot(document.getElementById('root')).render(
-//   <Car years={x} carinfo={y} />
-// );
+createRoot(document.getElementById('root')).render(
+  <Car years={x} carinfo={y} />
+);
 
 // // Use the dot notation to access object properties:
 function Car(props) {
