@@ -42,50 +42,50 @@ createRoot(document.getElementById('root')).render(
 );
 
 // // Use the dot notation to access object properties:
-// function Car(props) {
-//   return (
-//     <>
-//       <h2>My {props.carinfo.name} {props.carinfo.model}!</h2>
-//       <p>It is {props.carinfo.color} and it is from {props.carinfo.year}!</p>
-//     </>
-//   );
-// }
+function Car(props) {
+  return (
+    <>
+      <h2>My {props.carinfo.name} {props.carinfo.model}!</h2>
+      <p>It is {props.carinfo.color} and it is from {props.carinfo.year}!</p>
+    </>
+  );
+}
 
-// const carInfo = {
-//   name: "Ford",
-//   model: "Mustang",
-//   color: "red",
-//   year: 1969
-// };
+const carInfo = {
+  name: "Ford",
+  model: "Mustang",
+  color: "red",
+  year: 1969
+};
 
-// createRoot(document.getElementById('root')).render(
-//   <Car carinfo={carInfo} />
-// );
+createRoot(document.getElementById('root')).render(
+  <Car carinfo={carInfo} />
+);
 
-// // // Use the indexes to access array properties:
+// // Use the indexes to access array properties:
 
-// function Car(props) {
-//   return (
-//     <h2>My car is a {props.carinfo[0]} {props.carinfo[1]}!</h2>
-//   );
-// }
+function Car(props) {
+  return (
+    <h2>My car is a {props.carinfo[0]} {props.carinfo[1]}!</h2>
+  );
+}
 
-// const carInfoArray = ["Ford", "Mustang"];
+const carInfoArray = ["Ford", "Mustang"];
 
-// createRoot(document.getElementById('root')).render(
-//   <Car carinfo={carInfoArray} />
-// );
-// import PropTypes from 'prop-types'
-// function Student(props) {
-//   return (
-//     <div className= "student">
-//      <p>{props.name}</p>
-//      <p>{props.age}</p>
-//      <p>student: {props.isStudent ? "yes" : "no"}</p>
-//     </div>
-//   );
-// }
-// Student.propTypes ={
-//   name:PropTypes.string
-// }
-// export default Student
+createRoot(document.getElementById('root')).render(
+  <Car carinfo={carInfoArray} />
+);
+import PropTypes from 'prop-types'
+function Student(props) {
+  return (
+    <div className= "student">
+     <p>{props.name}</p>
+     <p>{props.age}</p>
+     <p>student: {props.isStudent ? "yes" : "no"}</p>
+    </div>
+  );
+}
+Student.propTypes ={
+  name:PropTypes.string
+}
+export default Student
